@@ -1,0 +1,19 @@
+{
+  "name": "prisma-prepare-dbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "ts": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.1",
+    "@prisma/client": "^4.4.0"
+  },
+  "dependencies": {}
+}
