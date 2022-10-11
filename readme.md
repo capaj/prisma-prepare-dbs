@@ -5,8 +5,11 @@ Utility for preparing multiple DBs with the same schema. This is helpful for exa
 ## Usage
 
 ```ts
-import {prismaPrepareDbs} from 'prisma-prepare-dbs'
+import { prismaPrepareDbs } from 'prisma-prepare-dbs'
 
-prismaPrepareDbs('my')
-
+prismaPrepareDbs({
+  prismaClient,
+  dbConnection: 'postgresql://user:pass@localhost:5432/myProject_test',
+  rootDbName: 'myProject_test'
+})
 ```
