@@ -1,6 +1,6 @@
 # prisma-prepare-dbs
 
-Utility for preparing multiple DBs with the same schema. This is helpful for example in CI for functional/integration testing.
+Utility for preparing multiple DBs with the same schema. This is helpful for example in CI for functional/integration testing when you want to run multiple vitest/jest workers each against one DB instance.
 
 ## Usage
 
